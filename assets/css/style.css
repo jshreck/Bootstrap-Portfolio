@@ -1,0 +1,83 @@
+body {
+    background: url("../images/spiration-light.png");
+}
+/* Header and Nav */ 
+.navbar-default {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    color: #777777;
+    font-size: 16px;
+}
+.navbar-header {
+    position: absolute;
+    height: 100%;
+    background: #4aaaa5;
+    padding: 1% 1%;
+} 
+h1 {
+    color: #ffffff;
+    margin: 0;
+}
+
+/* Main Content */
+section {
+    background: #ffffff;
+    color: #777777;
+    border: 1px solid #dddddd;
+}
+.me {
+    float: left;
+}
+
+/* Main Content and Connect with Me */
+h2, h3 {
+    color: #4aaaa5;
+}
+
+/* Connect with Me */
+h3 {
+    background: #ffffff;
+    text-align: center;
+}
+.connect {
+    text-align: center;
+}
+img {
+    margin: 10px;
+}
+
+/* Contact*/
+form {
+    font-size: 20px;
+    color: #777777;
+}
+.info {
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    color: #777777;
+}
+.message {
+    height: 200px;
+}
+.submit {
+    background-color:#4aaaa5;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+}
+.submit:hover {
+    color: #777777;
+}
+
+/* Portfolio */
+.portfolio {
+    text-align: center;
+}
+
+.description {
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
+}
