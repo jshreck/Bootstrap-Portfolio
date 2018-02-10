@@ -56,12 +56,20 @@ body {
 }
 
 /* Portfolio */
-.portfolio {
+.caption {
+    background: #4aaaa5;
     text-align: center;
 }
+.caption h3 {
+    color: #fff;
+}
 
-.description {
-    background: #4aaaa5;
-    color: #ffffff;
-    width: 200px;
+/* When stacking full screen items, give more vertical space */
+.col-sm-12 {
+    margin-bottom: 20px;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: auto;
 }
