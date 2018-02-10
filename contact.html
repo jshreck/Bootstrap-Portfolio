@@ -13,20 +13,27 @@
 </head>
 
 <body>
-    <!-- Header/Nav Bar -->
     <nav class="navbar navbar-default">
         <div class="container-fluid">
-            <!-- Name -->
+            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <h1>Julia Shreckhise</h1>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Julia Shreckhise</a>
             </div>
-            <!-- Nav Links -->
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="border-right">
+                    <li>
                         <a href="./index.html">About</a>
                     </li>
-                    <li class="border-right">
+                    <li>
                         <a href="./portfolio.html">Portfolio</a>
                     </li>
                     <li>
@@ -43,44 +50,42 @@
     <div class="container">
         <div class="row">
             <!-- Main Content -->
-            <section class="col-md-7">
-              <h2>Contact</h2>
-              <hr>
-              <form>
-                Name:
-                <br>
-                <input class="info" type="text" autofocus="autofocus" placeholder="John Snow">
-                <br>
-                <br> Email:
-                <br>
-                <input class="info" type="text" placeholder="example@gmail.com">
-                <br>
-                <br> Message:
-                <br>
-                <textarea class="message info"></textarea>
-                <br>
-                <br>
-                <input class="submit" type="submit" value="Submit">
-            </form>
+            <section class="col-md-7 main-content">
+                <form>
+                    <h4>Name:</h4>
+                    <input class="form-control" type="text" autofocus="autofocus" placeholder="John Snow">
+                    <br>
+                    <h4>Email:</h4>
+                    <input class="form-control" type="text" placeholder="example@gmail.com">
+                    <br>
+                    <h4>Message:</h4>
+                    <textarea class="form-control" rows="7"></textarea>
+                    <br>
+                    <input class="submit" type="submit" value="Submit">
+                </form>
             </section>
             <!-- vertical space -->
             <div class="col-md-1"></div>
             <!-- Connect Me Section -->
-            <section class="col-md-3 connect">
-                <h3>Connect with Me</h3>
-                <hr>
-                <a href="https://linkedin.com/in/juliashreckhise">
-                    <img src="./assets/images/linkedin.png" height="50" width="50" alt="LinkedIn">
-                </a>
-                <a href="https://github.com/jshreck">
-                    <img src="./assets/images/github.png" height="50" width="50" alt="GitHub">
-                </a>
+            <section class="col-md-3">
+                    <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h3 class="panel-title">Connect with Me</h3>
+                            </div>
+                            <div class="panel-body">
+                                    <a href="https://linkedin.com/in/juliashreckhise">
+                                        <img src="./assets/images/linkedin.png" height="50" width="50" alt="LinkedIn">
+                                    </a>
+                                    <a href="https://github.com/jshreck">
+                                        <img src="./assets/images/github.png" height="50" width="50" alt="GitHub">
+                                    </a>
+                            </div>
              </section>
             <!-- vertical space -->
             <div class="col-md-1"></div>
 
+            </div>
         </div>
-    </div>
 </body>
 
 </html>
