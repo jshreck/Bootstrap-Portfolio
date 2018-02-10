@@ -69,6 +69,7 @@ body {
     margin-bottom: 20px;
 }
 
+/* When stacking, make image take up full width */
 .thumbnail img {
     width: 100%;
     height: auto;
