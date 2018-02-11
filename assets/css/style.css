@@ -38,6 +38,9 @@ body {
     margin: 0 20px 20px 0;
     float: left;
 }
+ul {
+    list-style: disc inside none;
+}
 
 /* Contact*/
 .form-control:focus {
