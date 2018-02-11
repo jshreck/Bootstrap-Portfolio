@@ -34,6 +34,7 @@ body {
 
 /* About Me */
 .me {
+    width: 50%;
     margin: 0 20px 20px 0;
     float: left;
 }
@@ -63,6 +64,16 @@ body {
 .caption h3 {
     color: #fff;
 }
+/* Footer */
+.row {
+    margin-bottom: 30px;
+}
+footer {
+    padding: 10px;
+    background: #ddd;
+    text-align: center;
+    font-size: 10px;
+}
 
 /* When stacking full screen items, give more vertical space */
 .col-sm-12 {
@@ -74,3 +85,10 @@ body {
     width: 100%;
     height: auto;
 }
+
+/* Media Queries */
+@media only screen and (max-width: 640px) {
+    /* Index.html */
+    .me {
+        width:100%;
+    }
