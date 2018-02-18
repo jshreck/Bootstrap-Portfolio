@@ -56,10 +56,13 @@ ul {
     border-radius: 5px;
 }
 .submit:hover {
-    color: #777777;
+    color: #777;
 }
 
 /* Portfolio */
+.thumbnail > a:hover {
+    text-decoration: none;
+}
 .caption {
     background: #4aaaa5;
     text-align: center;
