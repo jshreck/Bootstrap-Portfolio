@@ -56,15 +56,15 @@
             <section class="main-content col-md-7 col-sm-12">
                 <h3>Contact</h3>
                 <hr>
-                <form>
+                <form action="https://formspree.io/julia.shreckhise@gmail.com" method="POST">
                     <h4>Name:</h4>
-                    <input class="form-control" type="text" autofocus="autofocus" placeholder="John Snow">
+                    <input name="name" class="form-control" type="text" autofocus="autofocus" placeholder="John Snow">
                     <br>
                     <h4>Email:</h4>
-                    <input class="form-control" type="text" placeholder="example@gmail.com">
+                    <input name="_replyto" class="form-control" type="text" placeholder="example@gmail.com">
                     <br>
                     <h4>Message:</h4>
-                    <textarea class="form-control" rows="7"></textarea>
+                    <textarea name="message" class="form-control" rows="7"></textarea>
                     <br>
                     <input class="submit" type="submit" value="Submit">
                 </form>
@@ -100,4 +100,5 @@
             </div>
         </footer>
 </body>
+
 </html>
